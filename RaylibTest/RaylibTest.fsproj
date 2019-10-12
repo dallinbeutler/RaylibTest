@@ -15,7 +15,7 @@
     <PackageReference Include="FSharp.Core" Version="4.7.0" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\RaylibCS\RaylibCS.csproj" />
+    <ProjectReference Include="..\RaylibBindingsCS\RaylibBindingsCS.csproj" />
   </ItemGroup>
   <Import Project="..\.paket\Paket.Restore.targets" />
 </Project>
