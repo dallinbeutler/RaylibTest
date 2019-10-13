@@ -7,7 +7,9 @@
     <LangVersion>preview</LangVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="EasingFunctions.fs" />
     <Compile Include="RaylibHelper.fs" />
+    <Compile Include="BasicMap.fs" />
     <Compile Include="Camera.fs" />
     <Compile Include="RaylibTest.fs" />
   </ItemGroup>

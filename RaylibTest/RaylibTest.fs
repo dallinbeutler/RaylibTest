@@ -17,12 +17,12 @@ let mainloop () =
   RL.DrawCylinder(new Vector3(1.0f, 0.0f, -4.0f), 0.0f, 1.5f, 3.0f, 8, Color.GOLD);
   RL.DrawCylinderWires(new Vector3(1.0f, 0.0f, -4.0f), 0.0f, 1.5f, 3.0f, 8, Color.PINK);
   RL.DrawGizmo(Vector3())
+  RL.DrawGrid(100,1.0f)
   
   RL.EndMode3D()
   RL.DrawText("Hello, world!", 102, 102, 20, Color.BLACK);  
   RL.DrawFPS(10,10)
   
-  RL.DrawGrid(100,1.0f)
   RL.EndDrawing();
   Camera.updatePos()
   RL.UpdateCamera(&Camera.camera)

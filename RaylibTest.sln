@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.29319.158
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "RaylibTest", "RaylibTest\RaylibTest.fsproj", "{6DB4CF4D-5F6B-47CC-8720-D2D9CCB3421A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RaylibBindingsCS", "RaylibBindingsCS\RaylibBindingsCS.csproj", "{94BF1CA7-C3DF-4273-BE1B-817E2119B188}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RaylibBindingsCS", "RaylibBindingsCS\RaylibBindingsCS.csproj", "{94BF1CA7-C3DF-4273-BE1B-817E2119B188}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "RaylibBindingGenerator", "RaylibBindingGenerator\RaylibBindingGenerator.fsproj", "{E6A7F049-42A4-4666-9B4F-A29B414EB8DA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{94BF1CA7-C3DF-4273-BE1B-817E2119B188}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94BF1CA7-C3DF-4273-BE1B-817E2119B188}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{94BF1CA7-C3DF-4273-BE1B-817E2119B188}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6A7F049-42A4-4666-9B4F-A29B414EB8DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6A7F049-42A4-4666-9B4F-A29B414EB8DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6A7F049-42A4-4666-9B4F-A29B414EB8DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6A7F049-42A4-4666-9B4F-A29B414EB8DA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -13,7 +13,7 @@ let mutable camera =
 let mutable moveSpeed = 0.5f
 
 // Define the camera to look into our 3d world
-RL.SetCameraMode(camera, CameraMode.CAMERA_THIRD_PERSON)
+//RL.SetCameraMode(camera, CameraMode.CAMERA_CUSTOM)
 
 
 let updatePos ()=
