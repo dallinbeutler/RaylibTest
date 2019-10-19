@@ -120,10 +120,10 @@ let inline QuintEaseOutIn b c d t=
 (*----------------------------- SINE ---------------------------*)
 let private halfPi = Math.PI /2.0
 
-let inline SineEaseOut (b:^INumeric) c d t=
+let  SineEaseOut (b:^INumeric) c d t=
     (c*Math.Sin(t/d*(halfPi))+b)
 
-let inline SineEaseIn b c d t=
+let  SineEaseIn b c d t=
     (-c*Math.Cos(t/d*(halfPi))+c+b)
 
 let inline SineEaseInOut b c d t=
